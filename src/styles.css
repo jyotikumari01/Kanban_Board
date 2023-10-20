@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.kanban-container {
+  padding-top: 10px;
+}
+.kanban {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+}
+.boardController {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 6%;
+  top: 20%;
+  width: 200px; /* Full width */
+  height: 80px; /* Full height */
+  overflow: auto;
+  background-color: whitesmoke;
+  padding: 5px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+
+.kbByUserContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* header  */
+.userHeader {
+  width: 300px;
+  height: 40px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+}
+.profileIcon {
+  margin-right: 4px;
+}
+.header-name {
+  margin-right: 4px;
+}
+.kbheader-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.iconNamCount {
+  display: flex;
+}
+.addThreedot {
+  display: flex;
+}
